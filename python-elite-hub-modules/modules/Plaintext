@@ -1,0 +1,39 @@
+/elite-financial-hub  <-- (Pasta Principal)
+│
+├── app.py             <-- (FICA AQUI: O Maestro do sistema)
+├── requirements.txt   <-- (Configurações de instalação)
+│
+└── /modules           <-- (Pasta de Inteligência)
+    ├── __init__.py    <-- (Arquivo vazio para o Python entender a pasta)
+    ├── calculators.py <-- (Sua nova Calculadora de Juros Compostos)
+    ├── news_engine.py <-- (O motor do Terminal de Notícias)
+    └── wealth_diag.py <-- (O diagnóstico patrimonial)
+
+
+
+/elite-financial-hub
+│
+├── app.py                     # Arquivo principal (Hub de navegação)
+├── requirements.txt           # Dependências (streamlit, pandas, numpy, etc.)
+│
+└── /modules                   # Pasta para lógicas específicas
+    ├── __init__.py            # Arquivo vazio (indica que a pasta é um módulo Python)
+    └── calculators.py         # Arquivo da Calculadora de Juros Compostos
+
+
+/elite-financial-hub
+│
+├── .streamlit/
+│   └── config.toml          # Configurações de tema (Dark Mode fixo)
+│
+├── data/                    # Pasta para logs ou persistência futura
+│
+├── modules/                 # Módulos lógicos do sistema
+│   ├── __init__.py
+│   ├── news_engine.py       # Código do terminal de notícias
+│   ├── wealth_diag.py       # Código do diagnóstico patrimonial
+│   └── compound_calc.py     # NOVO: Calculadora Avançada
+│
+├── app.py                   # Arquivo mestre (Hub de Navegação)
+├── requirements.txt         # Dependências para o deploy
+└── README.md                # Documentação estratégica
